@@ -127,6 +127,7 @@ function checkForMatch() {
 		cardsMatched++;
 		if (cardsMatched === TOTAL_PAIRS) {
 			gameOver();
+			cardsMatched = 0;
 		}		
 		console.log(cardsMatched);						
 	} else {
